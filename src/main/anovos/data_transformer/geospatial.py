@@ -3,6 +3,7 @@ from pyspark.sql import types as T
 from math import sin, cos, sqrt, atan2, radians, pi
 
 
+
 def centroid(idf, lat_col, long_col, id_col=None):
     """
     Calculate centroid of a given DataFrame
